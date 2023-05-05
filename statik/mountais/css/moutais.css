@@ -1,0 +1,567 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main {
+    width: 100%;
+    min-width: 320px;
+}
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.absol {
+    position: absolute;
+}
+
+.reletiv {
+    position: relative;
+}
+
+.blok-1 {
+
+    text-align: center;
+    min-width: 320px;
+    width: 100%;
+    position: relative; /* добавляем для z-index */
+}
+
+.foto-1 {
+    max-height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    object-fit: cover;
+    z-index: -1; /* добавляем, чтобы картинка была под текстом */
+}
+
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    max-height: 55%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.osnov-zag {
+    font-weight: 700;
+    font-size: 6.5vw;
+    color: white;
+}
+
+.nixh-zag {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 1.5vw;
+    width: 75%;
+    font-weight: 400;
+    margin: 10px auto 45px;
+    font-family: Roboto, sans-serif;
+}
+/*второй блок*/
+.section-2 {
+    margin-top: 10vw;
+}
+
+.blok-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.text2 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.text2-2 {
+    margin: 14px auto 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+}
+/*третий блок*/
+
+.blok-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 100%;
+    max-height: 300px;
+    max-width: 100%;
+    line-height: 1.6;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text3 {
+    flex: 0 0 50%;
+    font-size: 1rem;
+    max-width: 20%;
+    min-width: 250px;
+    padding: 5px 20px;
+}
+
+.text3-2 {
+    font-size: 1rem;
+    flex: 0 0 50%;
+    max-width: 20%;
+    min-width: 250px;
+    padding: 5px 20px;
+}
+
+/*четвертый блок*/
+
+.foto-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.section-5-1 {
+    margin-top: 1vw;
+}
+
+/*пятый блок*/
+.section-5 {
+    margin-top: 50px;
+}
+.blok-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 320px;
+    width: 100%;
+    position: relative;
+}
+
+.foto-3 {
+    width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+}
+.blok-5-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30%;
+    max-width: 30%;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0 10px;
+}
+
+.nediv {
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    justify-content: center;
+}
+
+.blok-5-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.blok-5-1 img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.foto-5-1 {
+    height: 100%;
+    flex: 20 0 33.33333333%;
+    padding: 10px;
+    min-height: 25vw;
+}
+
+.foto-5-2 {
+    height: 100%;
+    flex: 20 0 33.33333333%;
+    padding: 10px;
+    min-height: 30vw;
+}
+
+.foto-5-3 {
+    height: 100%;
+    padding: 10px;
+    min-height: 20vw;
+}
+
+.foto-5-4 {
+    height: 100%;
+    padding: 10px;
+    min-height: 40vw;
+}
+
+.foto-5-5 {
+    height: 100%;
+    padding: 10px;
+    min-height: 30vw;
+}
+
+.foto-5-6 {
+    height: 100%;
+    padding: 10px;
+    min-height: 25vw;
+}
+
+.text-5-1-1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.text-5-1-2 {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.knopka-2 {
+    margin: 25px auto;
+    justify-content: center;
+    background-color: transparent; /* задаем прозрачный фон кнопки */
+    border: 3px solid rgba(255, 255, 253, 0.93);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    color: rgba(255, 255, 253, 0.93);
+    line-height: 1.6;
+    width: 25%;
+}
+
+.knopka-2:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.blok-5-1-1 {
+    display: flex;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.blok-5-1-2 {
+    display: flex;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.blok-5-1-3 {
+    display: flex;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/*6 блок*/
+.section-6 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.blok-6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+}
+
+.foto-4 {
+    width: 90%;
+    object-fit: cover;
+
+    margin: 0 auto;
+    display: flex;
+    z-index: -1;
+    position: absolute;
+}
+
+.centr {
+    justify-content: center;
+}
+
+.granich {
+    flex: 1;
+    height: 100%;
+    min-height: 100px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.otstup {
+    max-width: 90%;
+}
+
+.blok-6-1 {
+
+    flex: 0 0 50%;
+    font-size: 1.5vw;
+    max-width: 40%;
+    min-width: 320px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.blok-6-2 {
+    margin-top: 25px;
+    flex: 0 0 50%;
+    font-size: 1.5vw;
+    max-width: 40%;
+    max-height: 400px;
+    min-width: 320px;
+    object-fit: cover;
+
+}
+
+.foto-5 {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.text-6-1 {
+    font-weight: 700;
+    font-size: 1.875rem;
+    position: relative;
+
+}
+
+.text-6-2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    position: relative;
+}
+
+.text-6-3 {
+    font-size: 0.875rem;
+    position: relative;
+    font-weight: 400;
+    max-height: 250px;
+}
+
+
+.niz {
+    margin-bottom: 20px;
+}
+
+
+.blok-7-foto-1-1 {
+    flex: 0 0 30%;
+    max-width: 30%;
+
+    padding: 10px;
+}
+
+.blok-7-foto-1-2 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    max-height: 650px;
+    padding: 10px;
+}
+
+.blok-7-foto-1-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 10px;
+
+}
+
+
+.foto-7-1 {
+    width: 100%;
+    min-height: 19.7vw;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.foto-7-2 {
+    margin-top: 5px;
+    min-height: 19.7vw;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.foto-7-3 {
+    width: 100%;
+    min-height: 13vw;
+    object-fit: cover;
+}
+
+.foto-7-4 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 13vw;
+    object-fit: cover;
+}
+
+.foto-7-5 {
+    width: 100%;
+    object-fit: cover;
+    min-height: 13vw;
+}
+
+.foto-7-6 {
+    height: 100%;
+    max-height: 19.7vw;
+    min-height: 19.7vw;
+    object-fit: cover;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.foto-7-7 {
+    height: 100%;
+    margin-top: 5px;
+    max-height: 19.7vw;
+    min-height: 19.7vw;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.section-7 {
+    margin-top: 100px;
+}
+
+.foto-7 {
+    width: 90%;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.blok-7 {
+    text-align: center;
+    min-width: 320px;
+    width: 100%;
+    max-height: 650px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.blok-7-foto {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    margin-bottom: auto;
+    margin-top: auto;
+    min-width: 320px;
+    position: relative;
+}
+
+.blok-7-text {
+    min-height: 320px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    text-align: left;
+    max-height: 380px;
+    justify-content: center;
+    min-width: 300px;
+    width: 20%;
+    padding: 30px;
+}
+
+.blok-7-1 {
+    position: relative;
+    text-align: left;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+
+}
+
+
+.blok-7-2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.blok-7-3 {
+    font-size: 0.875rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+
+.knopka-1 {
+    justify-content: left;
+    background-color: transparent; /* задаем прозрачный фон кнопки */
+    border: 2px solid #454545;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #454545;
+    line-height: 1.6;
+    width: 50%;
+}
+
+.knopka-1:hover {
+    background-color: #454545;
+    color: white;
+}
